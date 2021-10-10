@@ -5,6 +5,7 @@ public class GiftCardApplication {
 	public static void main(String[] args) {
 		GiftCard gc1 = new GiftCard(25, 125.00);
 		GiftCard gc2 = new GiftCard(50, 150.50);
+		GiftCard gc3 = new GiftCard(20, 140.25);
 		ArrayList<GiftCard> giftCards = new ArrayList<GiftCard>();
 		giftCards.add(gc1);
 		giftCards.add(gc2);
